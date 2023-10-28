@@ -1,3 +1,7 @@
+variable "region" {
+  type = string
+}
+
 variable "vpc_name" {
   type = string
 }
@@ -11,5 +15,9 @@ variable "subnet_azs" {
 }
 
 variable "public_subnets" {
+  type = list(string)
+}
+
+variable "private_subnets" {
   type = list(string)
 }
