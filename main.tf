@@ -11,7 +11,7 @@ module "vpc" {
   public_subnet_names = ["${var.vpc_name}-public-subnet"]
   private_subnet_names = ["${var.vpc_name}-private-subnet"]
 
-  tags = {
+  vpc_tags = {
     Terraform   = "true"
     Environment = "development"
     Name        = "${var.vpc_name}-vpc"
