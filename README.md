@@ -1,6 +1,6 @@
 # Formação SRE Network IaC
 
-This project "formacao-sre-network-iac" is about creating a network infrastructure as code using Terraform for an SRE (Site Reliability Engineering) formation.
+This project "**formacao-sre-network-iac**" is about creating a **VPC and subnets network infrastructure** as code using Terraform for an SRE (Site Reliability Engineering) formation.
 
 ## Usage
 
@@ -48,3 +48,5 @@ No resources.
 | <a name="output_private_subnets"></a> [private\_subnets](#output\_private\_subnets) | List of created private subnets |
 | <a name="output_public_subnets"></a> [public\_subnets](#output\_public\_subnets) | List of created public subnets |
 | <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | VPC ID of the created network |
+
+![image](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
